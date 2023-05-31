@@ -1,0 +1,27 @@
+  521  mkdir Actividades
+  522  cd Actividades/
+  523  mkdir "Deportes de equipo" "Deportes acuaticos" "Deportes extremos" "Deportes de mesa" "Deportes mentales"
+  524  cd "Deportes de equipo"/
+  525  touch Basquet
+  526  cd ..
+  527  cd "Deportes mentales"/
+  528  touch Ajedrez.txt
+  529  cd ..
+  530  cd "Deportes de mesa"/
+  531  touch "Ping pong"
+  532  cd ..
+  533  ls -a
+  534  ls -R
+  535  rm -r "Deportes extremos"/
+  536  pwd
+  537  git init
+  538  git remote add origin https://github.com/Estefania0701/practica-examen1-introinformatica.git
+  539  git remote -v
+  540  git status
+  541  git add .
+  542  git status
+  543  git commit -m "Mi primer commit"
+  544  git push origin main
+  545  history
+  546  history 50
+  547  history 50 > command.txt
